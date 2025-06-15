@@ -1,15 +1,17 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/yv2k05Qr)
-# os-sim
-**Read this section carefully as it overrides anything in the pdf.**
 
+# os-sim
+
+**Read this section carefully as it overrides anything in the pdf.**
 
 A simulation for a mini-os implementing scheduling and memory management techniques.
 
 - Feel free to change the code structure as you want, your mini-kernel will be called as follows.
+
 ```bash
 make
 ./os-sim -s <scheduling-algorithm> -f <processes-text-file>
-./os-sim -s rr -f processes.txt
+./os-sim -s rr -f -q q processes.txt
 ./os-sim -s hpf -f processes.txt
 ./os-sim -s srtn -f processes.txt
 ```
